@@ -35,12 +35,11 @@ class SMSFactory:
         return None
        
         
-
-        
+   
 factory = SMSFactory()
 
 service1 = factory.get_service('service1')
-print(service1.send())
+service1.send()
 
 service2 = factory.get_service('service2')
-print(service2.send())
+service2.send()
